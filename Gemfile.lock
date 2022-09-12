@@ -15,7 +15,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5)
+    ffi (1.15.5-x64-unknown)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -92,16 +93,16 @@ GEM
       ffi-compiler (>= 1.0, < 2.0)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    thread_safe (0.3.6)
-    tzinfo (1.2.10)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-unknown
+  x86_64-linux
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
@@ -109,7 +110,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-hive
   minima (~> 2.5)
-  tzinfo (~> 1.2)
+  tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.1)
 
