@@ -10,7 +10,7 @@ GEM
       ffi
       scrypt
     colorator (1.1.0)
-    concurrent-ruby (1.1.10)
+    concurrent-ruby (1.2.3)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -93,12 +93,7 @@ GEM
       ffi-compiler (>= 1.0, < 2.0)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    tzinfo (2.0.5)
-      concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2022.1)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
 
 PLATFORMS
   x64-unknown
